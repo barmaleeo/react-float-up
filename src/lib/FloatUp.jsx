@@ -55,7 +55,7 @@ export default class FloatUp extends Component {
         const s = this.state;
         return (
             <div className={'float-up-outher'+(s.show?' show':'')}>
-                {p.children.map((i, n) => (i))}
+                {p.children}
             </div>
         )
     }

@@ -123,9 +123,7 @@ function (_Component) {
       var s = this.state;
       return _react.default.createElement("div", {
         className: 'float-up-outher' + (s.show ? ' show' : '')
-      }, p.children.map(function (i, n) {
-        return i;
-      }));
+      }, p.children);
     }
   }]);
 
