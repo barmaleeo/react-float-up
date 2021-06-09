@@ -1,25 +1,21 @@
 {
   "name": "react-float-up",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "module": "dist/FloatUp.js",
   "main": "dist/FloatUp.js",
   "files": [
     "dist"
   ],
-  "peerDependencies": {
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0"
-  },
   "devDependencies": {
-    "node-sass": "^4.11.0",
-    "react-scripts": "2.1.8",
     "@babel/cli": "^7.2.3",
     "@babel/core": "^7.4.0",
     "@babel/plugin-proposal-class-properties": "^7.4.0",
     "@babel/preset-env": "^7.4.2",
     "@babel/preset-react": "^7.0.0",
-    "babel-polyfill": "^6.26.0"
+    "babel-polyfill": "^6.26.0",
+    "node-sass": "^6.0.0",
+    "react-scripts": "^4.0.3"
   },
   "scripts": {
     "start": "react-scripts start",
